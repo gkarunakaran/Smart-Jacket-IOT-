@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/liveusers"
+        android:src="@drawable/liveusers"
+        />
+    <TextView
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:text="Live users"
+        android:layout_marginTop="110dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="200dp"
+        android:layout_height="30dp" />
+    <TextView
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:text="Attendance"
+        android:layout_marginTop="240dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="200dp"
+        android:layout_height="30dp" />
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="135dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/attendance"
+        android:src="@drawable/attendance"
+        />
+    <Button
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:textColor="#000000"
+        android:textAllCaps="false"
+        android:layout_marginTop="290dp"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dp"
+        android:text="RFID Status"
+        android:id="@+id/rfid"
+        android:background="#00bf03"
+        />
+    <Button
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:textColor="#000000"
+        android:textAllCaps="false"
+        android:layout_marginTop="380dp"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:text="Earth Quake Status"
+        android:textSize="30dp"
+        android:id="@+id/earhquack"
+        android:background="#00bf03"
+        />
+</RelativeLayout>
